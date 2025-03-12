@@ -28,11 +28,11 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
 
 ## 📌 Acompanhe o projeto:
 
-### - Aula 01 
+- Aula 01 
 ### Exercício 1
 ![Exercício 1](img/Exercicio1-aula1.jpeg)
 ### Exercício 2
 ![Exercício 2](img/Exercicio2-aula1.jpeg)
-### - Aula 02 
+- Aula 02 
 ### Exercício 1
 ![Exercício 1](img/Exercicio1-aula2.jpeg)
