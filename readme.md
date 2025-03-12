@@ -26,6 +26,8 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
    npx expo start
    ```
 
+## 📌 Acompanhe o projeto:
+
 ## Aula 01 
 ### Exercício 1
 ![Exercício 1](img/Exercicio1-aula1.jpeg)
