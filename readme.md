@@ -32,5 +32,5 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
 ### Exercício 2
 ![Exercício 2](img/Exercicio2-aula1.jpeg)
 ## Aula 02 
-### Exercício 1 - Aula 02
+### Exercício 1
 ![Exercício 3](img/Exercicio1-aula2.jpeg)
