@@ -27,7 +27,9 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
    ```
 
 ## Aula01 
-### Exercício 1
-![Exercício 1](img/Exercicio-aula1.jpeg)
-### Exercício 2
-![Exercício 2](img/Exercicio-aula2.jpeg)
+### Exercício 1 - Aula 01
+![Exercício 1](img/Exercicio1-aula1.jpeg)
+### Exercício 2 - Aula 01
+![Exercício 2](img/Exercicio2-aula1.jpeg)
+### Exercício 1 - Aula 02
+![Exercício 3](img/Exercicio1-aula2.jpeg)
