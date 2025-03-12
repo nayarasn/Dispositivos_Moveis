@@ -25,3 +25,9 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
    ```sh
    npx expo start
    ```
+
+## Aula01 
+### Exercício 1
+![Exercício 1](img/Exercicio-aula1.jpeg)
+### Exercício 2
+![Exercício 2](img/Exercicio-aula2.jpeg)
