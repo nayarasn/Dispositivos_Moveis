@@ -37,10 +37,10 @@ const LoginScreen = ({ navigation }) => {
             <Text style={styles.socialText}>Entrar com Google</Text>
         </TouchableOpacity>
 
-        {/* Botão do Google*/}
+        {/* Botão do Github*/}
         <TouchableOpacity style={[styles.socialButton, styles.githubButton]}>
             <Ionicons name="logo-github" size={2} color="white"/>
-            <Text style={styles.socialText}>Entrar com github</Text>
+            <Text style={styles.socialText}>Entrar com Github</Text>
         </TouchableOpacity>
 
 
