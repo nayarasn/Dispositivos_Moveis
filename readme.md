@@ -1,15 +1,19 @@
 # 📱 Dispositivos Móveis
 
-## 🎯 Objetivo
+## 🎯 Objetivo:
 Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com **React Native**.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas:
 - ⚛️ **React Native** - Desenvolvimento mobile
 - 🚀 **Expo** - Execução e facilitação
 - 🔗 **Axios** - Requisições HTTP
 - 🌐 **Firebase** - Banco de dados com serviço Firestore
 
-## 🚀 Instalação
+## 🗂️ Estrutura do Projeto:
+
+#### EM DESENVOLVIMENTO
+
+## 🧑‍💻 Como executar o Projeto:
 1. Clone o repositório:
    ```sh
    git clone https://github.com/nayarasn/Dispositivos_Moveis.git

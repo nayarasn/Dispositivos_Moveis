@@ -34,13 +34,13 @@ const LoginScreen = ({ navigation }) => {
         {/* Botão do Google*/}
         <TouchableOpacity style={styles.socialButton}>
             <AntDesign name="google" size={24} color="white"/>
-            <Text style={styles.socialText}>Entrar com Google</Text>
+            <Text style={styles.socialText}>Entrar com o Google</Text>
         </TouchableOpacity>
 
         {/* Botão do Github*/}
         <TouchableOpacity style={[styles.socialButton, styles.githubButton]}>
             <Ionicons name="logo-github" size={2} color="white"/>
-            <Text style={styles.socialText}>Entrar com Github</Text>
+            <Text style={styles.socialText}>Entrar com o Github</Text>
         </TouchableOpacity>
 
 
