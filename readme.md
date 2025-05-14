@@ -30,7 +30,7 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
    ```sh
    npx expo start
    
-   <!-- 
+<!-- 
    Configuração do Ambiente (.env)
 O aplicativo utiliza variáveis de ambiente para configurar o acesso ao Firebase. Abaixo está um exemplo do arquivo .env que você deve criar na raiz do seu projeto:
 
