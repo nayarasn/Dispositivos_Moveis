@@ -7,10 +7,7 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis com 
 - ⚛️ **React Native** - Desenvolvimento mobile
 - 🚀 **Expo** - Execução e facilitação
 - 🌐 **Firebase** - Banco de dados NoSQL com serviço Firestore
-- ** **
 - 🔗 **Axios** - Requisições HTTP
-- 
-
 
 ## 🗂️ Estrutura do Projeto:
 
@@ -81,6 +78,7 @@ Run in web browser: Abre uma versão web do seu aplicativo (algumas funcionalida
 Leia o QR code com o aplicativo Expo Go no seu dispositivo (para dispositivos físicos). Se você escolher executar no seu dispositivo Android ou iOS, certifique-se de ter o aplicativo Expo Go instalado. Escaneie o QR code mostrado no Expo Developer Tools com a câmera do seu dispositivo através do aplicativo Expo Go.
    ```
  -->
+
 ## 📌 Acompanhe o projeto:
 
 - ### Aula 01 
