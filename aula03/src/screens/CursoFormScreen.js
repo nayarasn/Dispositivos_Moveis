@@ -1,5 +1,8 @@
-import { View, Text } from 'react-native'
+import { View, Text, Alert, TextInput, Button, StyleSheet } from 'react-native'
 import React, { useState, useEffect } from 'react'
+import { doc, getDoc } from 'firebase/firestore'
+import { adicionarCurso, atualizarCurso } from '../services/CursoService'
+import { db } from '../config/firebaseConfig'
 
 const CursoFormScreen = ({ route, navigation }) => {
 
@@ -22,13 +25,59 @@ const CursoFormScreen = ({ route, navigation }) => {
         buscarCurso()
       }
     },[itemId])
+
+    const handleSalvar = async () => {
+      if ( !nome || !descricao) {
+        Alert.alert('Erro', 'Preencha todos os campos')
+        return
+      }
+
+      try {
+        if (editando) {
+          await atualizarCurso(itemId, {name: nome, description: descricao })
+          Alert.alert('Curso atualizado com sucesso!')
+        } else {
+          await adicionarCurso({ name: nome, description: descricao})
+          Alert.alert('Curso criado com sucesso')
+        }
+        navigation.goBack()
+      } catch (error) {
+        Alert.alert('Erro', 'Algo deu errado ao salvar')
+
+      }
+    }
     
 
   return (
-    <View>
-      <Text>CursoFormScreen</Text>
+    <View style={styles.container}>
+      <Text styles={styles.title}>
+        {editando ? 'Editar Curso' : 'Adcionar Curso'}
+      </Text>
+
+      <TextInput
+        placeholder="Nome do curso"
+        style={styles.input}
+        value={nome}
+        onChangeText={setNome}
+        />
+
+      <TextInput
+        placeholder="Descrição do curso"
+        style={styles.input}
+        value={descricao}
+        onChangeText={setDescricao}
+        />
+
+        <Button title={editando ? 'Salvar Alterações' : 'Criar Curso'} onPress={handleSalvar}/>
     </View>
   )
 }
+
+
+const styles = StyleSheet.create({
+container: { flex: 1, padding: 20, justifyContent: 'center', backgroundColor: '#f5f5f5' },
+title: { fontSize: 22, fontWeight: 'bold', marginBottom: 20, textAlign: 'center' },
+input: { borderBottomWidth: 1, marginBottom: 20, padding: 8 },
+})
 
 export default CursoFormScreen
