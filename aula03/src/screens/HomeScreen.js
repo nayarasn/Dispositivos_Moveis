@@ -26,11 +26,11 @@ const HomeScreen = ({ navigation }) => {
     }, [])
   )
 
-  const confirmarExclusao =(id) => {
-    Alert.alert('Confirmar', 'Deseja realmente excluir este curso?',[
-      { text: 'Cancelar', style: 'cancel'},
+  const confirmarExclusao = (id) => {
+    Alert.alert('Confirmar', 'Deseja realmente excluir este curso?', [
+      { text: 'Cancelar', style: 'cancel' },
       {
-        text:'Excluir',
+        text: 'Excluir',
         style: 'destructive',
         onPress: async () => {
           await deletarCurso(id)
@@ -44,7 +44,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>📚Cursos Disponíveis</Text>
-      <Button title='Adicionar Curso' onPress={() => navigation.navigate('CursoForm')}/>
+      <Button title='Adicionar Curso' onPress={() => navigation.navigate('CursoForm')} />
       <FlatList
         data={itens}
         keyExtractor={(item) => item.id}
@@ -59,7 +59,7 @@ const HomeScreen = ({ navigation }) => {
           >
             <Text style={styles.itemTitle}>{item.name}</Text>
             <Text style={styles.itemDescription}>{item.description}</Text>
-            <Button tittle="🗑️" onPress={() => confirmarExclusao(item.id)} color="#d9534f"/>
+            <Button tittle="🗑️" onPress={() => confirmarExclusao(item.id)} color="#d9534f" />
           </TouchableOpacity>
         )
 
