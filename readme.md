@@ -88,7 +88,8 @@ Instale as dependências:
 - **Web browser:** versão web do app (funcionalidades nativas limitadas).
 
 💡 Para dispositivos físicos, utilize o app **Expo Go** para escanear o QR code exibido no Expo Developer Tools.
-
+ 
+ <!--
 ## 📌 Acompanhe o projeto:
-
 EM DESENVOLVIMENTO
+-->
