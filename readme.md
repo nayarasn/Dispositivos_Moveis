@@ -89,8 +89,6 @@ Instale as dependências:
 
 💡 Para dispositivos físicos, utilize o app **Expo Go** para escanear o QR code exibido no Expo Developer Tools.
 
-## 🚀 Como executar em diferentes ambientes
-
 ## 📌 Acompanhe o projeto:
 
 EM DESENVOLVIMENTO
