@@ -11,6 +11,34 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
 
 ## 🗂️ Estrutura do Projeto:
 
+- **Aula01:** Ambientação com a tecnologia
+- **Aula02:** Projeto com aplicação de conceitos básicos
+- **Aula03:** Projeto completo seguindo a estrutura abaixo:
+
+```
+/  
+├── src/  
+│   ├── config/                  
+│   │   └── firebaseConfig.js   # Configuração do Firebase Database 
+│   ├── context/                
+│   │   └── AuthContext.js      # Contexto de Firebase Autenticação  
+│   ├── navigation/              
+│   │   └── AppNavigation.js    # Definição das rotas de navegação  
+│   ├── screens/                 
+│   │   ├── CursoFormScreen.js      # Tela de login  
+│   │   ├── DetailsScreen.js   # Tela de cadastro  
+│   │   ├── HomeScreen.js       # Tela inicial  
+│   │   ├── LoginScreen.js    # Tela de detalhes do curso  
+│   │   ├── ProfileScreen.js  # Tela de cadastro/edição de cursos  
+│   │   └── RegisterScreen.js    # Tela de perfil do usuário  
+│   └── services/                
+│       └── CursoService.js     # Serviço para operações de cursos 
+├── App.js                      # Arquivo principal do aplicativo  
+├── index.js                    # Ponto de entrada do React Native   
+├── package.json                # Gerenciamento de dependências e scripts  
+├── readme.md                   # Documentação do projeto  
+
+```
 
 
 ## 🧑‍💻 Como Executar o Projeto:
