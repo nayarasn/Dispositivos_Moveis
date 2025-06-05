@@ -36,7 +36,7 @@ const RegisterScreen = ({ navigation }) => {
                 placeholder="Senha"
                 style={styles.input}
                 secureTextEntry
-                value={email}
+                value={senha}
                 onChangeText={setSenha}
             />
 
