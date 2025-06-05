@@ -13,19 +13,9 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
 
 
 
-## 🧑‍💻 Como executar o Projeto:
+## 🧑‍💻 Como Executar o Projeto:
 
-### 1. Verifique se o Node.js e npm/yarn estão instalados
-
-```sh
-node -v && npm -v
-# ou
-node -v && yarn --version
-
-
-1. PRIMEIRO PASSO:
-
-Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yarn) estão instalados na sua máquina. Para conferir as versões instaladas, execute os comandos abaixo no terminal:
+### 1. Verifique se o Node.js e npm/yarn estão instalados:
 
 ```sh
    node -v
@@ -39,9 +29,7 @@ Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yar
    ```
 Se ainda não estiverem instalados, você pode baixá-los em: https://nodejs.org/.
 
-2. SEGUNDO PASSO:
-
-Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferramenta de linha de comando essencial para desenvolver, testar e realizar o deploy de aplicativos feitos com React Native.
+### 2. Instale o Expo CLI (caso ainda não tenha):
 
 ```sh
    npm install -g expo-cli
@@ -51,10 +39,8 @@ Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferram
    yarn global add expo-cli
    ```
 
-3. TERCEIRO PASSO:
-
-⚠️ Importante:
-O aplicativo utiliza variáveis de ambiente para configurar o acesso ao Firebase. Crie um arquivo .env na raiz do projeto com a seguinte estrutura:
+### 3. Configure as variáveis de ambiente:
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
 
 - API_KEY
 - AUTH_DOMAIN
@@ -63,10 +49,9 @@ O aplicativo utiliza variáveis de ambiente para configurar o acesso ao Firebase
 - MESSAGING_SENDER_ID
 - APP_ID
 
-Adicione os dados do seu projeto Firebase, e lembre-se de manter este arquivo seguro.
+⚠️ Importante: Não compartilhe o arquivo .env e adicione-o ao .gitignore.
 
-💡 Dica:
-Adicione o arquivo .env ao .gitignore
+### 4. Clone o repositório e instale as dependências:
 
 Clone o repositório:
    ```sh
@@ -84,7 +69,9 @@ Instale as dependências:
 ```sh
    yarn install
    ```
-Inicie o projeto:
+
+### 5. Inicie o projeto:
+
 ```sh
    npx expo start
    ```
@@ -93,15 +80,16 @@ Inicie o projeto:
    yarn start
    ```
 
-4. QUARTO PASSO:
-
+### 6. Execute o projeto:
 ▶️ Você pode executar o projeto em diferentes ambientes:
 
-- Android device/emulator: roda o app em dispositivo físico Android conectado ou em um emulador.
-- iOS simulator: executa no simulador iOS (disponível somente em macOS).
-- Web browser: abre a versão web do app (com limitações em funcionalidades nativas).
+- **Android device/emulator:** roda o app em dispositivo físico Android ou emulador.
+- **iOS simulator:** disponível apenas em macOS.
+- **Web browser:** versão web do app (funcionalidades nativas limitadas).
 
-💡 Para dispositivos físicos, certifique-se de ter o app Expo Go instalado e use-o para escanear o QR code exibido no Expo Developer Tools.
+💡 Para dispositivos físicos, utilize o app **Expo Go** para escanear o QR code exibido no Expo Developer Tools.
+
+## 🚀 Como executar em diferentes ambientes
 
 ## 📌 Acompanhe o projeto:
 
