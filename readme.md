@@ -5,15 +5,23 @@ Repositório dedicado às práticas da disciplina **Programação de Dispositivo
 Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis utilizando **React Native**.
 
 ## 🛠 Tecnologias Utilizadas:
-- ⚛️ **React Native** - Desenvolvimento mobile
-- 🚀 **Expo** - Execução e facilitação
-- 🌐 **Firebase** - Banco de dados NoSQL com serviço Firestore
+- ⚛️ **React Native** - Framework para desenvolvimento mobile em JavaScript
+- 🚀 **Expo** - Plataforma para facilitar o desenvolvimento e deploy de apps React Native
+- 🌐 **Firebase** - Backend em nuvem com banco NoSQL Firestore
 
 ## 🗂️ Estrutura do Projeto:
 
 
 
 ## 🧑‍💻 Como executar o Projeto:
+
+### 1. Verifique se o Node.js e npm/yarn estão instalados
+
+```sh
+node -v && npm -v
+# ou
+node -v && yarn --version
+
 
 1. PRIMEIRO PASSO:
 
