@@ -15,7 +15,7 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
 
 ## 🧑‍💻 Como executar o Projeto:
 
-Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yarn) estão instalados na sua máquina. Para conferir as versões instaladas, execute os comandos abaixo no terminal:
+1. Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yarn) estão instalados na sua máquina. Para conferir as versões instaladas, execute os comandos abaixo no terminal:
 
 ```sh
    node -v
@@ -29,7 +29,7 @@ Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yar
    ```
 Se ainda não estiverem instalados, você pode baixá-los em: https://nodejs.org/.
 
-Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferramenta de linha de comando essencial para desenvolver, testar e realizar o deploy de aplicativos feitos com React Native.
+2. Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferramenta de linha de comando essencial para desenvolver, testar e realizar o deploy de aplicativos feitos com React Native.
 
 ```sh
    npm install -g expo-cli
@@ -39,7 +39,7 @@ Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferram
    yarn global add expo-cli
    ```
 
-⚠️ Importante:
+3. ⚠️ Importante:
 O aplicativo utiliza variáveis de ambiente para configurar o acesso ao Firebase. Crie um arquivo .env na raiz do projeto com a seguinte estrutura:
 
 - API_KEY
@@ -54,15 +54,15 @@ Adicione os dados do seu projeto Firebase, e lembre-se de manter este arquivo se
 💡 Dica:
 Adicione o arquivo .env ao .gitignore
 
-1. Clone o repositório:
+Clone o repositório:
    ```sh
    git clone https://github.com/nayarasn/Dispositivos_Moveis.git
    ```
-2. Acesse a pasta do projeto:
+Acesse a pasta do projeto:
    ```sh
    cd aula03
    ```
-3. Instale as dependências:
+Instale as dependências:
    ```sh
    npm install
    ```
@@ -70,7 +70,7 @@ Adicione o arquivo .env ao .gitignore
 ```sh
    yarn install
    ```
-4. Inicie o projeto:
+Inicie o projeto:
 ```sh
    npx expo start
    ```
@@ -79,7 +79,7 @@ Adicione o arquivo .env ao .gitignore
    yarn start
    ```
 
-▶️ Você pode executar o projeto em diferentes ambientes:
+4. ▶️ Você pode executar o projeto em diferentes ambientes:
 
 - Android device/emulator: roda o app em dispositivo físico Android conectado ou em um emulador.
 - iOS simulator: executa no simulador iOS (disponível somente em macOS).
