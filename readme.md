@@ -15,7 +15,9 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
 
 ## 🧑‍💻 Como executar o Projeto:
 
-1. Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yarn) estão instalados na sua máquina. Para conferir as versões instaladas, execute os comandos abaixo no terminal:
+1. PRIMEIRO PASSO:
+
+Antes de começar, verifique se o Node.js e o gerenciador de pacotes (npm ou yarn) estão instalados na sua máquina. Para conferir as versões instaladas, execute os comandos abaixo no terminal:
 
 ```sh
    node -v
@@ -29,7 +31,9 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
    ```
 Se ainda não estiverem instalados, você pode baixá-los em: https://nodejs.org/.
 
-2. Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferramenta de linha de comando essencial para desenvolver, testar e realizar o deploy de aplicativos feitos com React Native.
+2. SEGUNDO PASSO:
+
+Em seguida, instale o Expo CLI (caso ainda não tenha). O Expo CLI é uma ferramenta de linha de comando essencial para desenvolver, testar e realizar o deploy de aplicativos feitos com React Native.
 
 ```sh
    npm install -g expo-cli
@@ -39,7 +43,9 @@ Se ainda não estiverem instalados, você pode baixá-los em: https://nodejs.org
    yarn global add expo-cli
    ```
 
-3. ⚠️ Importante:
+3. TERCEIRO PASSO:
+
+⚠️ Importante:
 O aplicativo utiliza variáveis de ambiente para configurar o acesso ao Firebase. Crie um arquivo .env na raiz do projeto com a seguinte estrutura:
 
 - API_KEY
@@ -79,7 +85,9 @@ Inicie o projeto:
    yarn start
    ```
 
-4. ▶️ Você pode executar o projeto em diferentes ambientes:
+4. QUARTO PASSO:
+
+▶️ Você pode executar o projeto em diferentes ambientes:
 
 - Android device/emulator: roda o app em dispositivo físico Android conectado ou em um emulador.
 - iOS simulator: executa no simulador iOS (disponível somente em macOS).
