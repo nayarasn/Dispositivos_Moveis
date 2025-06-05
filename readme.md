@@ -19,24 +19,24 @@ Aplicar técnicas e práticas para o desenvolvimento de aplicativos móveis util
 /  
 ├── src/  
 │   ├── config/                  
-│   │   └── firebaseConfig.js   # Configuração do Firebase Database 
+│   │   └── firebaseConfig.js    
 │   ├── context/                
-│   │   └── AuthContext.js      # Contexto de Firebase Autenticação  
+│   │   └── AuthContext.js       
 │   ├── navigation/              
-│   │   └── AppNavigation.js    # Definição das rotas de navegação  
+│   │   └── AppNavigation.js      
 │   ├── screens/                 
-│   │   ├── CursoFormScreen.js      # Tela de login  
-│   │   ├── DetailsScreen.js   # Tela de cadastro  
-│   │   ├── HomeScreen.js       # Tela inicial  
-│   │   ├── LoginScreen.js    # Tela de detalhes do curso  
-│   │   ├── ProfileScreen.js  # Tela de cadastro/edição de cursos  
-│   │   └── RegisterScreen.js    # Tela de perfil do usuário  
+│   │   ├── CursoFormScreen.js        
+│   │   ├── DetailsScreen.js     
+│   │   ├── HomeScreen.js        
+│   │   ├── LoginScreen.js      
+│   │   ├── ProfileScreen.js    
+│   │   └── RegisterScreen.js      
 │   └── services/                
-│       └── CursoService.js     # Serviço para operações de cursos 
-├── App.js                      # Arquivo principal do aplicativo  
-├── index.js                    # Ponto de entrada do React Native   
-├── package.json                # Gerenciamento de dependências e scripts  
-├── readme.md                   # Documentação do projeto  
+│       └── CursoService.js    
+├── App.js                      
+├── index.js                     
+├── package.json                
+├── readme.md                   
 
 ```
 
